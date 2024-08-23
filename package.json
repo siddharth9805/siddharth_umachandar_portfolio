@@ -1,0 +1,25 @@
+{
+  "name": "midterm",
+  "version": "1.0.0",
+  "description": "# Videos and Reference starter project: [https://github.com/kaw393939/webdev1project](here)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "lighthouse": "^11.2.0",
+    "playwright": "^1.39.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.9"
+  }
+}

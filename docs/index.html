@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This a portfolio website of Siddharth Umachandar">
+    <meta name="keywords" content="Siddharth, Siddharth Umachandar, Siddharth's portfolio, NJIT, Tata power">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="./js/main.js"></script>
+    <title>Siddharth Portfolio</title>
+</head>
+<body>
+    <div class="container-frame">
+
+        <!-- nav bar -->
+        <section id="navbar" class="nav">
+            <div id="title" class="profile-title">
+                <b>Siddharth Umachandar</b>
+            </div>
+            <div id='hamburger-container-id' class="hamburger-container">
+                <div class="hamburger-menu" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+            <div id="nav" class="nav-items">
+                <a id="hero-link-1" href="#hero-section" class="nav-item"><strong>Home</strong></a>
+                <a id="about-link-1" href="#about" class="nav-item"><strong>About</strong></a>
+                <a id="skills-link-1" href="#skills" class="nav-item"><strong>Skills</strong></a>
+                <a id="experience-link-1" href="#experience" class="nav-item"><strong>Experience</strong></a>
+                <a id="project-link-1" href="#project" class="nav-item"><strong>Project</strong></a>
+                <a id="education-link-1" href="#education" class="nav-item"><strong>Education</strong></a>
+                <a id="publication-link-1" href="#publications" class="nav-item"><strong>Publication</strong></a>
+                <a id="achievements-link-1" href="#achievements" class="nav-item"><strong>Achievements</strong></a>
+            </div>
+        </section>
+
+        <!-- Home section -->
+        <section id="hero-section" class="hero">
+            <img id='profile-id' class="image-profile" src="./images/siddharth_photo.png" alt="siddharth profile pic">
+            <p class="hero-tag typing-demo"></p>
+            <div class="action-container">
+                <h3 class="action-title">Quick Actions</h3>
+                <p class="action-subheading">Explore my coding expertise, each button below reveals code samples from diverse projects, showcasing my proficiency in various skill sets.</p>
+                <div class="action-buttons-container">
+                    <a href="https://github.com/siddharth9805/Djanjo_ninja_login" class="resume-style action-button pop-up-button" target="_blank">Django</a>
+                    <a href="https://github.com/siddharth9805/Razor_Edge" class="resume-style action-button pop-up-button" target="_blank">NextJS</a>
+                    <a href="https://github.com/siddharth9805/pdf-teacher/blob/master/server/app.js" class="resume-style action-button pop-up-button" target="_blank">NodeJS</a>
+                    <a href="https://github.com/siddharth9805/pdf-teacher/tree/master/client/src" class="resume-style action-button pop-up-button" target="_blank">React</a>
+                    <a href="https://github.com/NJIT-WIS/midterm-portfolio-siddharth9805/blob/main/tests/specs.test.js" class="resume-style action-button pop-up-button" target="_blank">Playwright test</a>
+                </div>
+            </div>
+            <a id="animation-link" href="#about"><i class="arrow bounce fa fa-chevron-down"></i></a>
+        </section>
+
+        <!-- About section -->
+        <section id="about" class="about">
+            <div class="about-description">
+                <h2>Siddharth Umachandar</h2>
+                <h4>Computer Science Grad Student at NJIT</h4>
+                <p class="detail">As an experienced full-stack developer, I specialize in Python, JavaScript, and SQL, focusing on creating innovative, user-centric solutions. My commitment to excellence is reflected in my dedication for producing intuitive and efficient software. I constantly push creative and technological boundaries to ensure superior functionality and user experience in every project I undertake.</p>
+                <div class="social-icons"">
+                    <a href="mailto:your@email.com" title="Email" target="_blank">
+                        <span class="fas fa-envelope" aria-hidden="true"></span>
+                    </a>
+                    <a href="https://github.com/siddharth9805" title="GitHub" target="_blank">
+                        <span class="fab fa-github" aria-hidden="true"></span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/siddharth-umachandar-ab70b9178/" title="LinkedIn" target="_blank">
+                        <span class="fab fa-linkedin" aria-hidden="true"></span>
+                    </a>
+                    <a href="https://www.instagram.com/sid_980575/" title="Instagram" target="_blank">
+                        <span class="fab fa-instagram" aria-hidden="true"></span>
+                    </a>
+                    <a href="https://twitter.com/your_username" title="Twitter" target="_blank">
+                        <span class="fab fa-twitter" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <a class="resume-style action-button pop-up-button" href="https://drive.google.com/file/d/1T35OYRReSXp3t6fJeL2_F4qLLsAPidua/view?usp=sharing" target="_blank">My resume</a>
+            </div>
+            <div class="skill-list-container">
+                <div class="row">
+                    <div class="skills-list blue">Software Dev</div>
+                    <div class="skills-list yellow">Devops</div>
+                    <div class="skills-list magenta">Data Science</div>
+                </div>
+                <div class="row">
+                    <div class="skills-list green">Leadership</div>
+                    <div class="skills-list cyan">Collaboration</div>
+                    <div class="skills-list red">Problem Solving</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills section -->
+        <section id="skills" class="skill-item-container section-container">
+            <p class="section-title">Skills</p>
+            <div class="skill-card">
+                <div class="skills-items">
+                    <p class="skill-title">Languages</p>
+                    <div class="skill-row">
+                        <div class="skill-item"><img src="./images/python.png" class="skill-icons" alt="python-img"> Python</div>
+                        <div class="skill-item"><img src="./images/java.jpg" class="skill-icons" alt="java-img"> Java</div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-item"><img src="./images/javascript.png" class="skill-icons" alt="js-img"> Javascript</div>
+                        <div class="skill-item"><img src="./images/C.png" class="skill-icons" alt="c-img"> C</div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-item"><img src="./images/c++.png" class="skill-icons" alt="cplus-img"> C++</div>
+                        <div class="skill-item"><img src="./images/Sql.png" class="skill-icons" alt="sql-img"> SQL</div>
+                    </div>
+                </div>
+                <div class="skills-items">
+                    <p class="skill-title">Web Technologies</p>
+                    <div class="skill-row">
+                        <div class="skill-item"><img src="./images/html.png" class="skill-icons" alt="html-img"> HTML</div>
+                        <div class="skill-item"><img src="./images/css.png" class="skill-icons" alt="css-img"> CSS</div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-item"><img src="./images/tailwind.png" class="skill-icons" alt="tailwind-img"> Tailwind</div>
+                        <div class="skill-item"><img src="./images/angular.png" class="skill-icons" alt="angular-img"> Angular</div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-item"><img src="./images/nodejs.png" class="skill-icons" alt="node-img"> NodeJS</div>
+                        <div class="skill-item"><img src="./images/django.jpeg" class="skill-icons" alt="django-img"> Django</div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skills-items">
+                    <p class="skill-title">Tools</p>
+                    <div class="skill-row">
+                        <div class="skill-item"><img src="./images/git.jpeg" class="skill-icons" alt="git-img"> Git</div>
+                        <div class="skill-item"><img src="./images/nginx.png" class="skill-icons" alt="nginx-img"> NGINX</div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-item"><img src="./images/kafka.png" class="skill-icons" alt="kafka-img"> Kafka</div>
+                        <div class="skill-item"><img src="./images/docker.png" class="skill-icons" alt="docker-img"> Docker</div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-item"><img src="./images/kubernatives.png" class="skill-icons" alt="kuber-img">Kubernatives</div>
+                        <div class="skill-item"><img src="./images/airflow.png" class="skill-icons" alt="airflow-img"> Airflow</div>
+                    </div>
+                    <div class="skill-item skill-final-child"><img src="./images/google_cloud.png" class="skill-icons" alt="gc-img"> Google Cloud</div>
+                </div>
+                <div class="skills-items">
+                    <p class="skill-title">Database</p>
+                    <div class="skill-row">
+                        <div class="skill-item"><img src="./images/postgres.png" class="skill-icons" alt="postg-img"> Postgres</div>
+                        <div class="skill-item"><img src="./images/mysql.png" class="skill-icons" alt="mysql-img"> MySQL</div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-item"><img src="./images/mongo.png" class="skill-icons" alt="mongo-img"> MongoDB</div>
+                        <div class="skill-item"><img src="./images/elastic_search.png" class="skill-icons" alt="esearch-img"> Elastic Search</div>
+                    </div>
+                    <div class="skill-item skill-final-child"><img src="./images/big_query.jpeg" class="skill-icons skill-final-child" alt="bquery-img"> Big query</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience section -->
+        <section id="experience" class="experience-container section-container">
+            <p class="section-title">Experience</p>
+            <div class="details-experience">
+                <h2 class="job-title">Lead Engineer</h2>
+                <h4 class="company-title">Tata Power</h4>
+                <p class="job-date">November 2020 - August 2023, Andheri, Maharashtra , India</p>
+                <p class="company-description">
+                    Tata Power is India's Largest Integrated Power Company, present across the entire power value chain of conventional & renewable energy, power services and next-generation customer solutions including solar rooftop and EV charging stations.
+                </p>
+                <p class="job-date">Responsibility</p>
+                <ul>
+                    <li class="job-description">Developed a financial KPI dashboard using Django Rest Framework, Angular 13, Postgres, and NGINX, transforming unstructured data into actionable insights. Simplified data uploads to Google Cloud, improving user engagement and decision-making, resulting in a 150% increase in efficiency and a reduction in operational costs by $240,000.</li>
+                    <li class="job-description">Led the Invoice Image Analytics project using FastAPI, Angular 13, Postgres, and NGINX, automating data extraction from SAP invoices with OCR and regex, saving 1,320 man-hours and $163,147 in costs while significantly enhancing data accuracy.</li>
+                    <li class="job-description">Led the creation of a Liquidity Cash Management app using Django Ninja, Angular, Postgres, and NGINX, enabling real-time tracking of cash flow and supporting data-driven investment decisions that secured a profit of $120,382.</li>
+                </ul>
+                <div class="left"></div>
+                <div class="bottom-left corner"></div>
+                <div class="bottom"></div>
+                <div class="experience-number">1</div>
+            </div>
+            <div class="border-class"></div>
+            <div class="details-experience-2">
+                <h2 class="job-title">Machine Learning Intern</h2>
+                <h4 class="company-title">Reliance Industries Limited</h4>
+                <p class="job-date">December 2018 - January 2019, Gansoli, Navi Mumbai, India</p>
+                <p class="company-description">
+                    Reliance Industries Limited, privately owned conglomerate that operates in petrochemical production and refining, textile, retail, marketing, telecommunications, and other industries. It was the first privately owned Indian company to enter the Fortune 500. Headquarters are in Mumbai.
+                </p>
+                <p class="job-date">Responsibility</p>
+                <ul>
+                    <li class="job-description">Gained practical machine learning experience by applying theoretical knowledge to real-world projects, improving my skills in creating and optimizing algorithms for valuable applications.</li>
+                    <li class="job-description">Worked in a multi-disciplinary team to deliver machine learning projects, enhancing my collaboration and communication skills, and appreciating diverse perspectives for innovative solutions.</li>
+                    <li class="job-description">Maintained a commitment to continuous learning in machine learning, keeping up-to-date with the latest trends and techniques to ensure the best outcomes in projects and stay at the cutting edge of technology.</li>
+                </ul>
+                <div class="top-right corner"></div>
+                <div class="right"></div>
+                <div class="experience-number">2</div>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section id="project" class="section-container projects-container">
+            <p class="section-title">Projects</p>
+            <div class="project-list">
+                <img class="project-image imagesize" src="./images/pdfteacher.png" alt="cashflow-img"></img>
+                <div class="project-details">
+                    <p class="project-title">Explainit</p>
+                    <p class="project-description">Developed ExplainIt, a tutor app with Node.js, Firebase, React, and ChatGPT API for PDF-to-explanation conversion, text-to-speech, interactive dialogues, custom quizzes, and note-taking features.</p>
+                    <div class="project-button-container">
+                        <a class="project-button" href="https://github.com/siddharth9805/pdf-teacher" target="_blank">
+                            <p class="project-button-text">View Source</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-list">
+                <img class="project-image imagesize" src="./images/razoredge.png"  alt="kpi-img"></img>
+                <div class="project-details">
+                    <p class="project-title">Razor Edge</p>
+                    <p class="project-description">Developed "Razor Edge" using Next.js, a beauty platform enhancing web experience and SEO for a youthful audience, promoting self-love and modern beauty standards.</p>
+                    <div class="project-button-container">
+                        <a class="project-button" href="https://github.com/siddharth9805/Razor_Edge" target="_blank">
+                            <p class="project-button-text">View Source</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-list">
+                <img class="project-image" src="./images/pheonix.png" alt="pheonix-img"></img>
+                <div class="project-details">
+                    <p class="project-title">Phoenix Gaming Assistant App</p>
+                    <p class="project-description">A novel app that allows physically disabled people to play Android games with their speech.</p>
+                    <div class="project-button-container">
+                        <a class="project-button" href="https://github.com/siddharth9805/Phoenix-Gaming-Assistant-App" target="_blank">
+                            <p class="project-button-text">View Source</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-list">
+                <img class="project-image" src="./images/girlhack.png" alt="girlhack-img"></img>
+                <div class="project-details">
+                    <p class="project-title">Girlhack Cosmic Weight</p>
+                    <p class="project-description">This website allows the user to enter their weight, and then uses Solar System OpenData to retrieve various data about the planet that is selected. Data includes aphelion, perihelion, name, and gravity.</p>
+                    <div class="project-button-container">
+                        <a class="project-button" href="https://github.com/siddharth9805/Girlhack_cosmic_weight" target="_blank">
+                            <p class="project-button-text">View Source</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-list">
+                <img class="project-image" src="./images/wifi.png" alt="wifisig-img"></img>
+                <div class="project-details">
+                    <p class="project-title">Wifi Signal Strength detector</p>
+                    <p class="project-description">In this project, we propose a system that models the spread of disease throughout the branches of individual fruit trees, in which we will compute the “optimal” shape that a tree should be pruned to prior to the onset of the disease.</p>
+                    <div class="project-button-container">
+                        <a class="project-button" href="https://github.com/siddharth9805/WifiStateDetectionApp" target="_blank">
+                            <p class="project-button-text">View Source</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-list">
+                <img class="project-image" src="./images/meeting-minute.png"  alt="meetmin-img"></img>
+                <div class="project-details">
+                    <p class="project-title">Meeting Minutes App</p>
+                    <p class="project-description">Meeting Minutes App can be used to record the audio of a meeting, convert speech-to-text, and store the transcript for future reference. It also supports speaker diarization, text summarization, and has in-app calendar integration.</p>
+                    <div class="project-button-container">
+                        <a class="project-button" href="https://github.com/siddharth9805/Meeting-Minutes-App" target="_blank">
+                            <p class="project-button-text">View Source</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Eduction section -->
+        <section id="education" class="education-container section-container">
+            <p class="section-title">Education</p>
+            <div class="education-block">
+                <div class="education-list">
+                    <div class="education-flow">
+                        <div class="education-flow-start">
+                            <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="education-line-down"></div>
+                        </div>
+                        <div class="education-horizontal-line"></div>
+                        <div class="education-details">
+                            <div class="education-name-group">
+                                <p class="education-title">New Jersey Institute Of Technology</p>
+                                <p class="education-date">2023-2025</p>
+                            </div>
+                            <p class="education-degree">MS in Computer Science</p>
+                            <p class="education-marks">GPA:- 3.75</p>
+                        </div>
+                    </div>
+                </div>   
+                <div class="education-list">
+                    <div class="education-flow">
+                        <div class="education-flow-start education-flow-start-jrcollege">
+                            <div class="education-line-down"></div>
+                            <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="education-line-down"></div>
+                        </div>
+                        <div class="education-horizontal-line"></div>
+                        <div class="education-details">
+                            <div class="education-name-group">
+                                <p class="education-title">University of Mumbai, K.J. Somaiya College of Engineering</p>
+                                <p class="education-date">2016-2020</p>
+                            </div>
+                            <p class="education-degree">B. Tech. in Computer Engineering</p>
+                            <p class="education-marks">GPA:- 3.2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-list">
+                    <div class="education-flow">
+                        <div class="education-flow-start education-flow-start-school-2">
+                            <div class="education-line-down"></div>
+                            <div class="education-icon"><i class="fas fa-university"></i></div>
+                            <div class="education-line-down"></div>
+                        </div>
+                        <div class="education-horizontal-line"></div>
+                        <div class="education-details">
+                            <div class="education-name-group">
+                                <p class="education-title">Sri Ma Bal Niketan, Thane</p>
+                                <p class="education-date">2014-2016</p>
+                            </div>
+                            <p class="education-degree">Higher Secondary School Certificate (HSC)</p>
+                            <p class="education-marks">Precentage:- 75/100 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-list">
+                    <div class="education-flow">
+                        <div class="education-flow-start education-flow-start-school-jr">
+                            <div class="education-line-down"></div>
+                            <div class="education-icon"><i class="fas fa-school"></i></div>
+                        </div>
+                        <div class="education-horizontal-line"></div>
+                        <div class="education-details">
+                            <div class="education-name-group">
+                                <p class="education-title">D.A.V. Public School, Thane</p>
+                                <p class="education-date">2009-2014</p>
+                            </div>
+                            <p class="education-degree">Central Board of Secondary Education (CBSE)</p>
+                            <p class="education-marks">CGPA:- 8</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publication section -->
+        <section id="publications" class="publication-container section-container">
+            <p class="section-title">Publication</p>
+            <div class="publication-details">
+                <a class="publication-title" href="https://www.irjet.net/archives/V7/i8/IRJET-V7I8590.pdf" target="_blank">
+                    Phoenix Gaming Assistant App - an Assistant App for the Physically Disabled
+                </a>
+                <p class="publication-description">Siddharth Umachandar, Sharvai Patil, Shivam Mahajan, Anjali Chaudhari, International Research Journal of Engineering and Technology (IRJET) · Aug 14, 2020 · Aug 14, 2020</p>
+            </div>
+        </section>
+
+        <!-- Achievment section -->
+        <section id="achievements" class="achievement-container section-container">
+            <p class="section-title">Achievement</p>
+            <div class="publication-details">
+                <p class="publication-title award">Star of the Month (Tata Power)</p>
+                <p class="publication-description">Received Star of the month award for delivering a complex automation project within the deadline which benefited the business at a higher scale.</p>
+            </div>
+            <div class="publication-details">
+                <p class="publication-title award">Technet Exhibition (Sri Ma Bal Niketan)</p>
+                <p class="publication-description">Develop a motion game in visual basic. The game was showcased in the exhibition which was acknowledged by many of the people attending the exhibition. Secured First prize in the exhibition.</p>
+            </div>
+        </section>
+
+        <!-- footer section -->
+        <section id="footer" class="footer-backgound section-container">
+            <div class="footer-container">
+                <div class="navigation-list">
+                    <p class="navigation-title">Navigation</p>
+                    <a id="hero-link-2" href="#hero-section" class="nav-item navigation-list-link"><strong>Home</strong></a>
+                    <a id="about-link-2" href="#about" class="nav-item navigation-list-link"><strong>About</strong></a>
+                    <a id="skills-link-2" href="#skills" class="nav-item navigation-list-link"><strong>Skills</strong></a>
+                    <a id="experience-link-2" href="#experience" class="nav-item navigation-list-link"><strong>Experience</strong></a>
+                    <a id="project-link-2" href="#project" class="nav-item navigation-list-link"><strong>Project</strong></a>
+                    <a id="education-link-2" href="#education" class="nav-item navigation-list-link"><strong>Eduction</strong></a>
+                    <a id="publication-link-2" href="#publications" class="nav-item navigation-list-link"><strong>Publication</strong></a>
+                    <a id="achievements-link-2" href="#achievements" class="nav-item navigation-list-link"><strong>Achievments</strong></a>
+                </div>
+                <div class="email-subscribe">
+                    <p class="email-title">Contact</p>
+                    <div class="subscribe-form-fields">
+                        <textarea id="email-id"class="email-textarea-email" placeholder="Enter email"></textarea>
+                        <textarea id="email-text" class="email-textarea-message" placeholder="Enter Message"></textarea>
+                        <button class="email-button" onclick="onClear()">Subscribe</button>
+                    </div>
+                </div>
+                <div class="message-container">
+                    <div class="message-text">Everyone has complicated lives, but the more you can simplify it and make it work for you, the better it is going to be.</div>
+                    <br>
+                    <div class="message-author">- LEWIS HAMILTON</div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
