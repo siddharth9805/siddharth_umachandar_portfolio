@@ -479,8 +479,9 @@ span:hover{
 }
 
 .skill-icons{
-    width: 27%;
-    height: 50%;
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
 }
 
 /* experience section */
